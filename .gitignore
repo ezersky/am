@@ -1,1 +1,12 @@
+bower_components*
+ideas*
 node_modules*
+src*
+vendors*
+bower.json
+gulpfile.js
+package.json
+package-lock.json
+README.md
+robots.txt
+am.7z
