@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Useful meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-white navbar-offcanvas shadow">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" alt="">
+    </a>
+
+    <ul class="navbar-nav navbar-top">
+      <!--<li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>-->
+      <li class="nav-item">
+        <a class="nav-link" href="news.html">Новости</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ttx.html">Технические характеристики</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="completes.html">Комплектации и цены</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="dealers.html">Дилеры</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="testimonials.html">Отзывы</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="announcements.html">Объявления</a>
+      </li>
+      <!--<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" role="button" href="#!" id="dropdownExample" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownExample">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>-->
+    </ul>
+
+    <a data-morphing id="morphing" data-src="#morphing-content" href="javascript:;" class="btn btn-white">
+      <i class="fas fa-search"></i>
+    </a>
+
+    <a href="user-login.html" class="btn btn-white">
+      <i class="far fa-user"></i>
+    </a>
+
+    <button class="navbar-toggler navbar-toggler-right navbar-icon" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon-bar bar1"></span>
+      <span class="icon-bar bar2"></span>
+      <span class="icon-bar bar3"></span>
+    </button>
+
+    <div class="navbar-collapse collapse ml-auto" id="navbar-mobile">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-image">
+          <img src="" alt="">
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">База знаний</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Статистика</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Дилерам</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<div class="wrapper mt-4">
+  <div class="container-fluid">
+
+    <h1>Технические характеристики автомобилей</h1>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Главная</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Технические характеристики</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-9">
+
+        <div class="search-block mb-4 p-6">
+          <h3>Подобрать автомобиль</h3>
+          <div class="row mt-4">
+            <div class="col-12 col-sm-4 col-md-4 mt-2">
+              <select class="cussel" data-live-search="true" multiple title="Марка">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 mt-2">
+              <select class="cussel" data-live-search="true" multiple title="Модель" disabled>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 mt-2">
+              <select class="cussel" data-live-search="true" multiple title="Поколение" disabled>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-right: 0;">
+              <select class="cussel" data-live-search="true" multiple title="Кузов">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-left: 0;">
+              <select class="cussel" data-live-search="true" multiple title="Коробка">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-right: 0;">
+              <select class="cussel" data-live-search="true" multiple data-actions-box="true" title="Двигатель">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-left: 0;">
+              <select class="cussel" data-live-search="true" multiple title="Привод">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-right: 0;">
+              <select class="cussel" data-live-search="true" multiple title="Двигатель от">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-left: 0;">
+              <select class="cussel" data-live-search="true" multiple title="Двигатель до">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-right: 0;">
+              <select class="cussel" data-live-search="true" multiple title="Год от">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-left: 0;">
+              <select class="cussel" data-live-search="true" multiple title="Год до">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-right: 0;">
+              <div class="form-group">
+                <input type="text" class="form-control" id="pricestart" placeholder="Мощность, л.с. от">
+              </div>
+            </div>
+        
+            <div class="col-12 col-sm-3 col-md-2 mt-2" style="padding-left: 0;">
+              <div class="form-group">
+                <input type="text" class="form-control" id="priceend" placeholder="Мощность, л.с. до">
+              </div>
+            </div>
+        
+            <div class="col-12 col-sm-6 col-md-4 mt-2">
+              <button type="button" class="btn btn-blue btn-block">Показать</button>
+            </div>
+        
+          </div>
+        </div>
+
+        <ul class="ttx-list">
+          <li><a href="/catalog/51/">AC</a></li>
+          <li><a href="/catalog/52/">Acura</a></li>
+          <li><a href="/catalog/53/">Alfa Romeo</a></li>
+          <li><a href="/catalog/54/">Alpine</a></li>
+          <li><a href="/catalog/55/">Ariel</a></li>
+          <li><a href="/catalog/56/">Aro</a></li>
+          <li><a href="/catalog/57/">Asia</a></li>
+          <li><a href="/catalog/58/">Aston Martin</a></li>
+          <li><a href="/catalog/59/">Audi</a></li>
+          <li><a href="/catalog/60/">Austin</a></li>
+          <li><a href="/catalog/61/">Bentley</a></li>
+          <li><a href="/catalog/62/">BMW</a></li>
+          <li><a href="/catalog/63/">Brilliance</a></li>
+          <li><a href="/catalog/64/">Bristol</a></li>
+          <li><a href="/catalog/65/">Bugatti</a></li>
+          <li><a href="/catalog/66/">Buick</a></li>
+          <li><a href="/catalog/67/">BYD</a></li>
+          <li><a href="/catalog/68/">Cadillac</a></li>
+          <li><a href="/catalog/69/">Callaway</a></li>
+          <li><a href="/catalog/70/">Carbodies</a></li>
+          <li><a href="/catalog/71/">Caterham</a></li>
+          <li><a href="/catalog/72/">Changan</a></li>
+          <li><a href="/catalog/73/">ChangFeng</a></li>
+          <li><a href="/catalog/74/">Chery</a></li>
+          <li><a href="/catalog/75/">Chevrolet</a></li>
+          <li><a href="/catalog/76/">Chrysler</a></li>
+          <li><a href="/catalog/77/">Citroen</a></li>
+          <li><a href="/catalog/78/">Cizeta</a></li>
+          <li><a href="/catalog/79/">Coggiola</a></li>
+          <li><a href="/catalog/80/">Dacia</a></li>
+          <li><a href="/catalog/81/">Dadi</a></li>
+          <li><a href="/catalog/82/">Daewoo</a></li>
+          <li><a href="/catalog/83/">Daihatsu</a></li>
+          <li><a href="/catalog/84/">Daimler</a></li>
+          <li><a href="/catalog/85/">Dallas</a></li>
+          <li><a href="/catalog/86/">Datsun</a></li>
+          <li><a href="/catalog/87/">De Tomaso</a></li>
+          <li><a href="/catalog/88/">DeLorean</a></li>
+          <li><a href="/catalog/89/">Derways</a></li>
+          <li><a href="/catalog/90/">Dodge</a></li>
+          <li><a href="/catalog/91/">DongFeng</a></li>
+          <li><a href="/catalog/92/">Донинвест</a></li>
+          <li><a href="/catalog/93/">Eagle</a></li>
+          <li><a href="/catalog/94/">FAW</a></li>
+          <li><a href="/catalog/95/">Ferrari</a></li>
+          <li><a href="/catalog/96/">Fiat</a></li>
+          <li><a href="/catalog/97/">Fisker</a></li>
+          <li><a href="/catalog/98/">Ford</a></li>
+          <li><a href="/catalog/99/">Foton</a></li>
+          <li><a href="/catalog/100/">FSO</a></li>
+          <li><a href="/catalog/101/">Fuqi</a></li>
+          <li><a href="/catalog/102/">Geely</a></li>
+          <li><a href="/catalog/103/">Geo</a></li>
+          <li><a href="/catalog/104/">GMC</a></li>
+          <li><a href="/catalog/105/">Great Wall</a></li>
+          <li><a href="/catalog/106/">Hafei</a></li>
+          <li><a href="/catalog/107/">Haima</a></li>
+          <li><a href="/catalog/108/">Hindustan</a></li>
+          <li><a href="/catalog/109/">Holden</a></li>
+          <li><a href="/catalog/110/">Honda</a></li>
+          <li><a href="/catalog/111/">HuangHai</a></li>
+          <li><a href="/catalog/112/">Hummer</a></li>
+          <li><a href="/catalog/113/">Hyundai</a></li>
+          <li><a href="/catalog/114/">Infiniti</a></li>
+          <li><a href="/catalog/115/">Innocenti</a></li>
+          <li><a href="/catalog/116/">Invicta</a></li>
+          <li><a href="/catalog/117/">Iran Khodro</a></li>
+          <li><a href="/catalog/118/">Isdera</a></li>
+          <li><a href="/catalog/119/">Isuzu</a></li>
+          <li><a href="/catalog/120/">JAC</a></li>
+          <li><a href="/catalog/121/">Jaguar</a></li>
+          <li><a href="/catalog/122/">Jeep</a></li>
+          <li><a href="/catalog/123/">JMC</a></li>
+          <li><a href="/catalog/124/">Kia</a></li>
+          <li><a href="/catalog/125/">Koenigsegg</a></li>
+          <li><a href="/catalog/126/">Lamborghini</a></li>
+          <li><a href="/catalog/127/">Lancia</a></li>
+          <li><a href="/catalog/128/">Land Rover</a></li>
+          <li><a href="/catalog/129/">Landwind</a></li>
+          <li><a href="/catalog/130/">Lexus</a></li>
+          <li><a href="/catalog/131/">Lifan</a></li>
+          <li><a href="/catalog/132/">Lincoln</a></li>
+          <li><a href="/catalog/133/">Lotus</a></li>
+          <li><a href="/catalog/134/">LTI</a></li>
+          <li><a href="/catalog/135/">Luxgen</a></li>
+          <li><a href="/catalog/136/">Mahindra</a></li>
+          <li><a href="/catalog/137/">Marcos</a></li>
+          <li><a href="/catalog/138/">Marlin</a></li>
+          <li><a href="/catalog/139/">Marussia</a></li>
+          <li><a href="/catalog/140/">Maruti</a></li>
+          <li><a href="/catalog/141/">Maserati</a></li>
+          <li><a href="/catalog/142/">Maybach</a></li>
+          <li><a href="/catalog/143/">Mazda</a></li>
+          <li><a href="/catalog/144/">McLaren</a></li>
+          <li><a href="/catalog/145/">Mega</a></li>
+          <li><a href="/catalog/146/">Mercedes-Benz</a></li>
+          <li><a href="/catalog/147/">Mercury</a></li>
+          <li><a href="/catalog/148/">Metrocab</a></li>
+          <li><a href="/catalog/149/">MG</a></li>
+          <li><a href="/catalog/150/">Minelli</a></li>
+          <li><a href="/catalog/151/">Mini</a></li>
+          <li><a href="/catalog/152/">Mitsubishi</a></li>
+          <li><a href="/catalog/153/">Mitsuoka</a></li>
+          <li><a href="/catalog/154/">Morgan</a></li>
+          <li><a href="/catalog/155/">Nissan</a></li>
+          <li><a href="/catalog/156/">Noble</a></li>
+          <li><a href="/catalog/157/">Oldsmobile</a></li>
+          <li><a href="/catalog/158/">Opel</a></li>
+          <li><a href="/catalog/159/">Osca</a></li>
+          <li><a href="/catalog/160/">Pagani</a></li>
+          <li><a href="/catalog/161/">Panoz</a></li>
+          <li><a href="/catalog/162/">Perodua</a></li>
+          <li><a href="/catalog/163/">Peugeot</a></li>
+          <li><a href="/catalog/164/">Plymouth</a></li>
+          <li><a href="/catalog/165/">Pontiac</a></li>
+          <li><a href="/catalog/166/">Porsche</a></li>
+          <li><a href="/catalog/167/">Premier</a></li>
+          <li><a href="/catalog/168/">Proton</a></li>
+          <li><a href="/catalog/169/">Puma</a></li>
+          <li><a href="/catalog/170/">Qoros</a></li>
+          <li><a href="/catalog/171/">Qvale</a></li>
+          <li><a href="/catalog/172/">Reliant</a></li>
+          <li><a href="/catalog/173/">Renault</a></li>
+          <li><a href="/catalog/174/">Samsung</a></li>
+          <li><a href="/catalog/175/">Rolls-Royce</a></li>
+          <li><a href="/catalog/176/">Ronart</a></li>
+          <li><a href="/catalog/177/">Rover</a></li>
+          <li><a href="/catalog/178/">Saab</a></li>
+          <li><a href="/catalog/179/">Saleen</a></li>
+          <li><a href="/catalog/180/">Santana</a></li>
+          <li><a href="/catalog/181/">Saturn</a></li>
+          <li><a href="/catalog/182/">Scion</a></li>
+          <li><a href="/catalog/183/">SEAT</a></li>
+          <li><a href="/catalog/184/">ShuangHuan</a></li>
+          <li><a href="/catalog/185/">Skoda</a></li>
+          <li><a href="/catalog/186/">Smart</a></li>
+          <li><a href="/catalog/187/">Soueast</a></li>
+          <li><a href="/catalog/188/">Spectre</a></li>
+          <li><a href="/catalog/189/">Spyker</a></li>
+          <li><a href="/catalog/190/">SsangYong</a></li>
+          <li><a href="/catalog/191/">Subaru</a></li>
+          <li><a href="/catalog/192/">Suzuki</a></li>
+          <li><a href="/catalog/193/">Talbot</a></li>
+          <li><a href="/catalog/194/">Tata</a></li>
+          <li><a href="/catalog/195/">Tatra</a></li>
+          <li><a href="/catalog/196/">Tesla</a></li>
+          <li><a href="/catalog/197/">Tianma</a></li>
+          <li><a href="/catalog/198/">Tianye</a></li>
+          <li><a href="/catalog/199/">Tofas</a></li>
+          <li><a href="/catalog/200/">Toyota</a></li>
+          <li><a href="/catalog/201/">Trabant</a></li>
+          <li><a href="/catalog/202/">TVR</a></li>
+          <li><a href="/catalog/203/">Vauxhall</a></li>
+          <li><a href="/catalog/204/">Vector</a></li>
+          <li><a href="/catalog/205/">Venturi</a></li>
+          <li><a href="/catalog/206/">Volkswagen</a></li>
+          <li><a href="/catalog/207/">Volvo</a></li>
+          <li><a href="/catalog/208/">Vortex</a></li>
+          <li><a href="/catalog/209/">Wartburg</a></li>
+          <li><a href="/catalog/210/">Westfield</a></li>
+          <li><a href="/catalog/211/">Wiesmann</a></li>
+          <li><a href="/catalog/212/">Xin Kai</a></li>
+          <li><a href="/catalog/213/">Zastava</a></li>
+          <li><a href="/catalog/214/">Zotye</a></li>
+          <li><a href="/catalog/215/">ZX</a></li>
+          <li><a href="/catalog/216/">ВАЗ (Lada)</a></li>
+          <li><a href="/catalog/217/">ГАЗ</a></li>
+          <li><a href="/catalog/218/">ЗАЗ</a></li>
+          <li><a href="/catalog/219/">ЗИЛ</a></li>
+          <li><a href="/catalog/220/">ИЖ</a></li>
+          <li><a href="/catalog/221/">ЛуАЗ</a></li>
+          <li><a href="/catalog/222/">Москвич</a></li>
+          <li><a href="/catalog/223/">СМЗ</a></li>
+          <li><a href="/catalog/224/">ТагАЗ</a></li>
+          <li><a href="/catalog/225/">УАЗ</a></li>
+          <li><a href="/catalog/226/">Hawtai</a></li>
+          <li><a href="/catalog/227/">Renaissance Cars</a></li>
+          <li><a href="/catalog/228/">Paykan</a></li>
+          <li><a href="/catalog/229/">Haval</a></li>
+          <li><a href="/catalog/230/">Alpina</a></li>
+          <li><a href="/catalog/231/">DS</a></li>
+          <li><a href="/catalog/232/">Adler</a></li>
+          <li><a href="/catalog/233/">Packard</a></li>
+          <li><a href="/catalog/234/">Willys</a></li>
+          <li><a href="/catalog/235/">Комбат</a></li>
+          <li><a href="/catalog/236/">Borgward</a></li>
+          <li><a href="/catalog/237/">Ravon</a></li>
+          <li><a href="/catalog/238/">AMC</a></li>
+          <li><a href="/catalog/239/">Austin Healey</a></li>
+          <li><a href="/catalog/240/">Chana</a></li>
+          <li><a href="/catalog/241/">Changhe</a></li>
+          <li><a href="/catalog/242/">Efini</a></li>
+          <li><a href="/catalog/243/">Excalibur</a></li>
+          <li><a href="/catalog/244/">Groz</a></li>
+          <li><a href="/catalog/245/">Hurtan</a></li>
+          <li><a href="/catalog/246/">Jiangnan</a></li>
+          <li><a href="/catalog/247/">Jinbei</a></li>
+          <li><a href="/catalog/248/">Monte Carlo</a></li>
+          <li><a href="/catalog/249/">Nysa</a></li>
+          <li><a href="/catalog/250/">Shifeng</a></li>
+          <li><a href="/catalog/251/">SMA</a></li>
+          <li><a href="/catalog/252/">Wuling</a></li>
+          <li><a href="/catalog/253/">Genesis</a></li>
+          <li><a href="/catalog/254/">Zibar</a></li>
+          <li><a href="/catalog/255/">Прочие авто</a></li>
+          <li><a href="/catalog/256/">RAM</a></li>
+        </ul>
+
+        <div class="clearfix">
+          <div class="page-block">
+            <h3><span><a href="">Комплектации и цены</a></span></h3>
+            <div class="swiper-container multi-4">
+              <div class="swiper-wrapper">
+          
+                <div class="swiper-slide">
+                  <div class="teaser completes-teaser">
+                    <a class="block-link" href=""></a>
+                    <div class="completes-info">
+                      <div class="data new">Новый</div>
+                    </div>
+                   	<a href="" data-fancybox="gallery" data-caption="Image title">
+                      <img src="img/audi.jpg" alt="Image title" title="Image title">
+                    </a>
+                    <p class="title"><a href="">Audi Q8 2018</a></p>
+                    <p class="price"><span>от</span> 1 490 000 <i class="fas fa-ruble-sign"></i></p>
+                  </div>
+                </div>
+          
+                <div class="swiper-slide">
+                  <div class="teaser completes-teaser">
+                    <div class="completes-info">
+                      <div class="data used">С пробегом</div>
+                    </div>
+                   	<a href="" data-fancybox="gallery" data-caption="Image title">
+                      <img src="img/suzuki.jpg" alt="Image title" title="Image title">
+                    </a>
+                    <p class="title"><a href="">Suzuki Jimny</a></p>
+                    <p class="price"><span>от</span> 1 100 000 <i class="fas fa-ruble-sign"></i></p>
+                  </div>
+                </div>
+          
+                <div class="swiper-slide">
+                  <div class="teaser completes-teaser">
+                    <div class="completes-info">
+                      <div class="data new">Новый</div>
+                    </div>
+                   	<a href="" data-fancybox="gallery" data-caption="Image title">
+                      <img src="img/volvo.jpg" alt="Image title" title="Image title">
+                    </a>
+                    <p class="title"><a href="">Volvo S60 2018</a></p>
+                    <p class="price"><span>от</span> 1 490 000 <i class="fas fa-ruble-sign"></i></p>
+                  </div>
+                </div>
+          
+                <div class="swiper-slide">
+                  <div class="teaser completes-teaser">
+                    <div class="completes-info">
+                      <div class="data used">С пробегом</div>
+                    </div>
+                   	<a href="" data-fancybox="gallery" data-caption="Image title">
+                      <img src="img/bmw.jpg" alt="Image title" title="Image title">
+                    </a>
+                    <p class="title"><a href="">BMW</a></p>
+                    <p class="price"><span>от</span> 1 810 000 <i class="fas fa-ruble-sign"></i></p>
+                  </div>
+                </div>
+          
+                <div class="swiper-slide">
+                  <div class="teaser completes-teaser">
+                    <div class="completes-info">
+                      <div class="data new">Новый</div>
+                    </div>
+                   	<a href="" data-fancybox="gallery" data-caption="Image title">
+                      <img src="img/audi.jpg" alt="Image title" title="Image title">
+                    </a>
+                    <p class="title"><a href="">Audi Q8 2018</a></p>
+                    <p class="price"><span>от</span> 1 490 000 <i class="fas fa-ruble-sign"></i></p>
+                  </div>
+                </div>
+          
+                <div class="swiper-slide">
+                  <div class="teaser completes-teaser">
+                    <div class="completes-info">
+                      <div class="data new">Новый</div>
+                    </div>
+                   	<a href="" data-fancybox="gallery" data-caption="Image title">
+                      <img src="img/audi.jpg" alt="Image title" title="Image title">
+                    </a>
+                    <p class="title"><a href="">Audi Q8 2018</a></p>
+                    <p class="price"><span>от</span> 1 490 000 <i class="fas fa-ruble-sign"></i></p>
+                  </div>
+                </div>
+          
+              </div>
+              <div class="swiper-button-next swiper-button-white"></div>
+              <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+          
+            <div class="buttons-block">
+              <a href="" class="btn btn-blue">Смотреть все</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-3">
+        Advertisement
+      </div>
+    </div>
+
+
+    <div class="clearfix">
+      <div class="page-block">
+        <h3>
+          <span>
+            <a href="">Частные объявления</a>
+          </span>
+        </h3>
+        <div class="swiper-container multi-4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="teaser announcements-teaser">
+               	<a href="">
+                  <img src="img/niva.jpg" alt="Image title" title="Image title">
+                </a>
+                <p class="title"><a href="">LADA 4x4 (Нива), 2014</a></p>
+                <p class="price">290 000 ₽</p>
+                <p class="city">Москва</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="teaser announcements-teaser">
+               	<a href="">
+                  <img src="img/toyota-camry.jpg" alt="Image title" title="Image title">
+                </a>
+                <p class="title"><a href="">Toyota Camry, 2013</a></p>
+                <p class="price">930 000 ₽</p>
+                <p class="city">Нижний Новгород</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="teaser announcements-teaser">
+               	<a href="">
+                  <img src="img/hyundai-solaris.jpg" alt="Image title" title="Image title">
+                </a>
+                <p class="title"><a href="">Hyundai Solaris, 2016</a></p>
+                <p class="price">685 000 ₽</p>
+                <p class="city">Королёв</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="teaser announcements-teaser">
+               	<a href="">
+                  <img src="img/bmw-2.jpg" alt="Image title" title="Image title">
+                </a>
+                <p class="title"><a href="">BMW 3 серия, 1989</a></p>
+                <p class="price">90 000 ₽</p>
+                <p class="city">Орёл</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="teaser announcements-teaser">
+               	<a href="">
+                  <img src="https://placeholdit.co//i/320x240?&bg=000000&fc=999999&text=Image" alt="Image title" title="Image title">
+                </a>
+                <p class="title"><a href="">Audi Q8 2018</a></p>
+                <p class="price">1 490 000 ₽</p>
+                <p class="city">Курск</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="teaser announcements-teaser">
+               	<a href="">
+                  <img src="https://placeholdit.co//i/320x240?&bg=000000&fc=999999&text=Image" alt="Image title" title="Image title">
+                </a>
+                <p class="title"><a href="">Audi Q8 2018</a></p>
+                <p class="price">1 490 000 ₽</p>
+                <p class="city">Брянск</p>
+              </div>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next swiper-button-white"></div>
+          <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+        <div class="buttons-block">
+          <a href="" class="btn btn-blue">Все объявления</a>
+          <a href="" class="btn btn-orange">Подать объявление</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix">
+      <div class="page-block">
+        <h3>
+          <span>
+            <a href="">Отзывы владельцев</a>
+          </span>
+        </h3>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+            <div class="swiper-container multi-3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="teaser testimonials-teaser">
+                   	<a href="">
+                      <img src="img/testimonials/Peugeot-408-1.jpg" alt="" title="">
+                    </a>
+                    <div class="d-flex flex-row mt-2">
+                      <div class="w-75">
+                        <div class="title"><a href="">Peugeot 408 I</a></div>
+                        <div class="description">Пежо как оно есть..</div>
+                        <div class="user"><i class="far fa-user"></i> <a href="">Mobilizator</a></div>
+                      </div>
+                      <div class="w-25">
+                        <div class="float-right mark">
+                          4,8
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="d-flex justify-content-between meta">
+                      <div class="datetime"><i class="far fa-clock"></i> 12.08.2018</div>
+                      <div class="views"><i class="fas fa-eye"></i> 453</div>
+                      <div class="comments"><i class="fas fa-comments"></i> 43 <sup><a href="">+12</a></sup></div>
+                    </div>
+      
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="teaser testimonials-teaser">
+                   	<a href="">
+                      <img src="img/testimonials/FAW-Vita-2007.jpg" alt="" title="">
+                    </a>
+      
+                    <div class="d-flex flex-row mt-2">
+                      <div class="w-75">
+                        <div class="title"><a href="">FAW Vita 2007</a></div>
+                        <div class="description">Честный отзыв</div>
+                        <div class="user"><i class="far fa-user"></i> <a href="">Author</a></div>
+                      </div>
+                      <div class="w-25">
+                        <div class="mark">
+                          3,2
+                        </div>
+                      </div>
+                    </div>
+      
+      
+                    <div class="d-flex justify-content-between meta">
+                      <div class="datetime"><i class="far fa-clock"></i> 12.08.2018</div>
+                      <div class="views"><i class="fas fa-eye"></i> 453</div>
+                      <div class="comments"><i class="fas fa-comments"></i> 43 <sup><a href="">+12</a></sup></div>
+                    </div>
+      
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="teaser testimonials-teaser">
+                   	<a href="">
+                      <img src="img/testimonials/Mazda-6-III-res.jpg" alt="" title="">
+                    </a>
+      
+                    <div class="d-flex flex-row mt-2">
+                      <div class="w-75">
+                        <div class="title"><a href="">Mazda 6 III Рестайлинг</a></div>
+                        <div class="description">Не ожидал от Мазды</div>
+                        <div class="user"><i class="far fa-user"></i> <a href="">Tester</a></div>
+                      </div>
+                      <div class="w-25">
+                        <div class="mark">
+                          3,2
+                        </div>
+                      </div>
+                    </div>
+      
+      
+                    <div class="d-flex justify-content-between meta">
+                      <div class="datetime"><i class="far fa-clock"></i> 12.08.2018</div>
+                      <div class="views"><i class="fas fa-eye"></i> 453</div>
+                      <div class="comments"><i class="fas fa-comments"></i> 43 <sup><a href="">+12</a></sup></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next swiper-button-white"></div>
+              <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+            <div class="buttons-block">
+              <a href="testimonials.html" class="btn btn-blue">Все Отзывы</a>
+              <a href="" class="btn btn-orange">Добавить отзыв</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+            <a href="">
+              <img src="img/banners/banner-testimonials.png" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
+
+<div class="footer">
+  <div class="navline">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-9">
+          <ul class="nav nav-menu">
+            <li class="active"><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <ul class="nav">
+            <li>
+              <a href="https://www.facebook.com/" rel="external">
+                <span class="fa-stack fa-md">
+                  <i class="fas fa-square-full fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/" rel="external">
+                <span class="fa-stack fa-md">
+                  <i class="fas fa-square-full fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://vk.com/" rel="external">
+                <span class="fa-stack fa-md">
+                  <i class="fas fa-square-full fa-stack-2x"></i>
+                  <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa-stack fa-md">
+                  <i class="fas fa-square-full fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row mt-4">
+      <div class="col-md-8">
+        <div class="mt-4 mb-4">
+          <img src="img/logo.png" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="col-md-4">
+        <p class="font-weight-bold">Подписка на полезную информацию</p>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control sharp" placeholder="Ваш email" aria-label="Email" aria-describedby="subscribes-email">
+          <div class="input-group-append">
+            <button class="btn btn-sharp btn-outline-secondary" type="button">Подписаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-9">
+        <p class="disclaimer">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      </div>
+      <div class="col-md-3">
+        <p class="text-right">
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyrights">
+    Разработка сайта <a href="">Developer</a>
+  </div>
+</div>
+
+<div style="display: none;" id="hello">
+  <div class="input-group mt-4 mb-4">
+    <input type="text" class="form-control sharp" placeholder="Поиск по сайту" aria-label="searchInput" aria-describedby="searchInput">
+    <div class="input-group-append">
+      <button class="btn btn-red btn-sharp" type="button" id="searchInput">Найти</button>
+    </div>
+  </div>
+</div>
+
+<div id="morphing-content" class="hidden">
+  <div class="container-fluid">
+    <form action="">
+      <div class="input-group">
+        <input type="text" class="form-control form-control-lg" placeholder="Что ищем?" aria-label="inputSearch" aria-describedby="button-search">
+        <div class="input-group-append">
+          <button class="btn btn-orange" type="button" id="button-search">Искать</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<a href="#" class="scrollToTop">
+  <i class="fas fa-chevron-up"></i>
+</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script>
+function readOnlyCheckBox() {
+   return false;
+}
+</script>
+</body>
+</html>

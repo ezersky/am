@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    //= template/head.html
+</head>
+<body>
+
+  //= template/navbar-offcanvas-custom.html
+
+<div class="wrapper mt-4">
+  <div class="container-fluid">
+
+    <h1>Автомобильные новости</h1>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Главная</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Новости</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+
+      <div class="col-12 col-sm-12 col-md-9">
+        //= template/news.html
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-3">
+        //= template/sidebar-news.html
+
+        //= template/sidebar-onair.html
+      </div>
+    </div>
+
+  </div>
+
+  //= template/footer.html
+</div>
+
+
+//= template/scripts.html
+</body>
+</html>

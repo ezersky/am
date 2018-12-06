@@ -1,0 +1,22 @@
+.news-teaser {
+  //@extend .shadow;
+  margin-bottom: ($spacer * 2);
+}
+
+
+.news-sidebar {
+  .news-teaser {
+    @extend .mt-4;
+    border-bottom: 1px solid $gray-200;
+    @extend .pb-2;
+
+    .title {
+      font-weight: normal;
+      font-size: .86rem;
+    }
+
+    &:last-child {
+      border-bottom: 0px solid $gray-200;
+    }
+  }
+}

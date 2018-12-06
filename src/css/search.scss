@@ -1,0 +1,202 @@
+// Contents
+//
+//
+.search-list {
+  @extend .list-unstyled;
+  @extend .mt-4;
+
+  @media (min-width: 400px) {
+    column-count: 2;
+  }
+
+  @media (min-width: 576px) {
+    column-count: 2;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    column-count: 3;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    column-count: 4;
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    column-count: 5;
+  }
+
+  sup {
+    color: $gray-600;
+  }
+
+}
+
+
+// morphing
+.morphing-btn-wrap {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.morphing-btn {
+  -webkit-transition: background 0.3s, color 0.2s 0.2s, width 0.2s 0s;
+  -moz-transition: background 0.3s, color 0.2s 0.2s, width 0.2s 0s;
+  -o-transition: background 0.3s, color 0.2s 0.2s, width 0.2s 0s;
+  transition: color 0.3s 0.2s, width 0.2s 0s;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.morphing-btn_circle {
+  color: transparent !important;
+  padding-left: 0;
+  padding-right: 0;
+  width: 35.6px !important;
+
+  /* Override inline style rule */
+  -webkit-transition: color 0.2s 0s, width .3s 0.2s;
+  -moz-transition: color 0.2s 0s, width .3s 0.2s;
+  -o-transition: color 0.2s 0s, width .3s 0.2s;
+  transition: color 0.2s 0s, width .3s 0.2s;
+}
+
+.morphing-btn-clone {
+  position: fixed;
+  background: $gray-900;
+  border-radius: 50%;
+  z-index: 3;
+  -webkit-transition: all 0.5s cubic-bezier(.65, .05, .36, 1);
+  -moz-transition: all 0.5s cubic-bezier(.65, .05, .36, 1);
+  -o-transition: all 0.5s cubic-bezier(.65, .05, .36, 1);
+  transition: all 0.5s cubic-bezier(.65, .05, .36, 1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.morphing-btn-clone_visible {
+  display: block;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
+  transform: scale(1) !important;
+}
+
+.fancybox-morphing .fancybox-bg {
+  background:$gray-900;
+  opacity: 1;
+}
+
+.fancybox-morphing .fancybox-toolbar {
+  top: 20px;
+  right: 40px;
+}
+
+.fancybox-morphing .fancybox-button--close {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  color: #fff;
+}
+
+.fancybox-morphing .fancybox-button--close::after,
+.fancybox-morphing .fancybox-button--close::before {
+    height: 1.55px;
+    width: 22px;
+    left: calc(50% - 11px);
+}
+
+.fancybox-morphing .fancybox-button--close:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Styling for element used in example */
+
+#morphing-content {
+	width: 100%;
+  margin: 0;
+  position: relative;
+  background: transparent;
+  color: #fff;
+  padding: 6em 10vw;
+  line-height: 2;
+  z-index: 3;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#morphing-content a {
+  color: #fff;
+}//////////
+
+
+
+
+
+
+
+
+
+
+
+
+.pr0 {
+	padding-right: 0;
+	@include media-breakpoint-only(xs) {
+		padding-right: 15px;
+	}
+}
+
+.pl0 {
+	padding-left: 0;
+	@include media-breakpoint-only(xs) {
+		padding-left: 15px;
+	}
+}
+
+.search-block {
+  //background: $blue;
+  //color: $white;
+  padding-top: ($spacer * 2);
+  padding-bottom: ($spacer * 2);
+  //@extend .shadow-sm;
+
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: ($spacer * 2);
+    @extend .font-weight-bold;
+  }
+  a {
+    color: $gray-900;
+    &:hover,
+    &:focus,
+    &.active {
+      text-decoration: none;
+      color: $blue;
+    }
+  }
+
+  ul > li {
+    margin-bottom: ($spacer * 0.4);
+  }
+
+  a.btn {
+    @extend .btn-orange;
+    color: $white;
+    &:hover,
+    &:focus,
+    &.active {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+
+  .btn-white {
+    background: $white;
+    border: 1px solid $gray-400;
+  }
+}

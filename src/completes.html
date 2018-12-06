@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    //= template/head.html
+</head>
+<body>
+
+//= template/navbar-offcanvas-custom.html
+
+<div class="wrapper mt-4">
+  <div class="container-fluid">
+
+    <h1>Комплектации и цены</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Главная</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Комплектации и цены</li>
+      </ol>
+    </nav>
+
+    //= template/search-block.html
+
+    <div class="clearfix">
+      //= template/completes-page.html
+    </div>
+
+    <div class="pagenav">
+      <div class="loadmore-button">
+        <button class="btn">
+          <i class="fas fa-sync-alt"></i>
+          Показать ещё
+        </button>
+      </div>
+
+      <nav aria-label="pagenav">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <span class="page-link">←</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active">
+            <span class="page-link">
+              2
+              <span class="sr-only">(current)</span>
+            </span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">→</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="clearfix">
+      //= template/dealers.html
+    </div>
+
+    <div class="row">
+
+      <div class="col-12 col-sm-12 col-md-7">
+
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-5">
+
+      </div>
+    </div>
+
+    <div class="clearfix">
+      //= template/testimonials.html
+    </div>
+  </div>
+
+  //= template/footer.html
+</div>
+
+
+//= template/scripts.html
+</body>
+</html>

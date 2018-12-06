@@ -1,0 +1,74 @@
+.teaser {
+  img,
+  a > img {
+    @extend .img-fluid;
+    @extend .rounded;
+    //@extend .shadow;
+  }
+
+  .title {
+    margin-top: ($spacer * 0.5);
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .datetime {
+    font-size: .76rem;
+    color: $gray-600;
+  }
+
+  .user {
+    margin-top: ($spacer * 1);
+    font-size: 0.86rem;
+    color: $gray-500;
+    a {
+      color: $gray-500;
+    }
+  }
+
+  .rating {
+    margin-top: ($spacer * 1);
+    font-size: 1rem;
+    color: $gray-500;
+    a {
+      color: $blue;
+    }
+  }
+
+  .description {
+    margin-top: ($spacer * 0.5);
+    color: $gray-700;
+  }
+
+  .introtext {
+    margin-top: ($spacer * 1);
+  }
+
+  .meta {
+    margin-top: ($spacer * 1);
+    margin-bottom: ($spacer * 0.5);
+    color: $gray-600;
+    font-size: .76rem;
+    .datetime {
+      font-size: .76rem;
+    }
+    .views {
+      font-size: .76rem;
+    }
+    .comments {
+      font-size: .76rem;
+      sup {
+        a {
+          color: $blue;
+          &:hover,
+          &:focus,
+          &.active {
+            text-decoration: none;
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+
+}

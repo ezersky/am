@@ -1,0 +1,30 @@
+.testimonials-teaser {
+  margin-bottom: ($spacer * 2);
+
+  .mark {
+    @extend .float-right;
+    @extend .font-weight-bold;
+    @include border-radius(4px);
+    margin-top: ($spacer * 0.5);
+    display: inline-block;
+    width: 3.2rem;
+    height: 3.2rem;
+    vertical-align: middle;
+    line-height: 2.6rem;
+    text-align: center;
+    border: 2px solid $orange;
+    background: $white;
+  }
+}
+
+
+.testimonials-teaser-main {
+  margin-bottom: ($spacer * 4);
+
+  img,
+	a > img {
+		@extend .img-fluid;
+    @extend .rounded;
+    //@extend .shadow;
+	}
+}
