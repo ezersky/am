@@ -198,7 +198,6 @@ var swiper = new Swiper('.swiper-container.multi-2', {
   }
 });
 
-
 var swiper = new Swiper('.swiper-container.multi-3', {
   slidesPerView: 3,
   spaceBetween: 30,
