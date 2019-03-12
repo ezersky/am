@@ -8944,6 +8944,14 @@ button.swiper-pagination-bullet {
   .news-sidebar .news-teaser:last-child {
     border-bottom: 0px solid #e9ecef; }
 
+.page-dealers .image {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.page-dealers .title {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
 #completeResult {
   margin-top: 2rem; }
   #completeResult span {
@@ -9271,6 +9279,10 @@ body {
 
 .hidden {
   display: none; }
+
+.pagination {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
 
 .scrollToTop {
   position: fixed;

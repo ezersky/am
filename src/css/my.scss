@@ -33,7 +33,10 @@ body {
 	display: none;
 }
 
-
+.pagination {
+  margin-top: ($spacer * 4);
+  margin-bottom: ($spacer * 4);
+}
 
 .image,
 .img {
